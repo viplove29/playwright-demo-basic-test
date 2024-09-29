@@ -74,12 +74,21 @@ Cross-Browser Support: The scripts are designed to execute across multiple brows
 - Screen Capture: Screenshots and videos are captured on test failure to aid debugging.
   
 - Custom Test Data: Use of structured test data for reusability in the test-data folder
+- CI/CD Integration: GitHub Actions setup for continuous integration on Windows Runner
+
+# GitHub Actions CI/CD
+ - This project uses GitHub Actions to run the tests on every push or pull request. The workflow is defined in .github/workflows/playwright.yml.
+
+# Triggering CI
+ - The Playwright tests will be automatically executed in a Windows environment via GitHub Actions. You can manually trigger the action by pushing changes or creating a pull request.
+
+# GitHub Action Workflow
+ - The CI workflow is defined in the playwright.yml file. It uses Windows runners to execute the tests across multiple browsers.
   
 ## Required software
 - Node js -> v.14 or above
 - VS Code
 - Playwright Vs Code Extension
 
-Explore the Playwright Docs
-For further usage and configuration, check the official documentation:
-Playwright Documentation
+# Explore the Playwright Docs
+ - For further usage and configuration, check the official documentation: Playwright Documentation
