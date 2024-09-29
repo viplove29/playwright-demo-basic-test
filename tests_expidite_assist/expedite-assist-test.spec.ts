@@ -3,7 +3,7 @@ import * as data from "../test-data/test-data.json";
 import { webkit, chromium, firefox } from "playwright";
 import RegisterPage from "../pages/registerPage";
 
-test("Test 1 Register New User", async ({ page }) => {
+test("Test 1: Register New User", async ({ page }) => {
   //Brower info & open new page
   const browser: Browser = await chromium.launch({ headless: true });
   // const page:Page= await browser.newPage();
@@ -32,7 +32,7 @@ test("Test 1 Register New User", async ({ page }) => {
   expect(title).toEqual("frontend");
 });
 
-test("Test 2 Verify Login Functionality", async () => {
+test("Test 2: Verify Login Functionality", async () => {
   //Brower info & open new page
   const browser: Browser = await chromium.launch({ headless: true });
   const page: Page = await browser.newPage();
@@ -65,7 +65,7 @@ test("Test 2 Verify Login Functionality", async () => {
   expect(title).toEqual("frontend");
 });
 
-test("Test 3 Create Support ticket for Expidite Assit", async () => {
+test("Test 3: Create Support ticket for Expidite Assit", async () => {
   //Brower info & open new page
   const browser: Browser = await chromium.launch({ headless: false });
   const page: Page = await browser.newPage();
@@ -109,7 +109,7 @@ test("Test 3 Create Support ticket for Expidite Assit", async () => {
   await browser.close();
 });
 
-test("Test 4 Create Case for Expidite Assit", async () => {
+test("Test 4: Create Case for Expidite Assit", async () => {
   //Brower info & open new page
   const browser: Browser = await chromium.launch({ headless: true });
   const page: Page = await browser.newPage();
