@@ -1,4 +1,4 @@
-# Playwright Demo - Basic Test with TypeScript for Expedite Assist
+# Playwright Demo - Basic Test with TypeScript for Expedite Assist 
 
 ## What is Playwright?
 - The playwright is a Node.js library to automate Chromium, Firefox, and WebKit with a single API. Playwright is built to enable cross-browser web testing.
