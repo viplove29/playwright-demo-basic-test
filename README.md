@@ -45,9 +45,6 @@ npx playwright test --ui
 ## Use this command to watch the reports:
 - npx playwright show-report
 
-## Execute tests on all browsers:
-- npx playwright test --project=all
-
 ## Alternatively, run tests for specific browsers like Chromium, Firefox, or Webkit:
 - npx playwright test --project=chromium
 
