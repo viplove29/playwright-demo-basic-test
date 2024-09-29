@@ -1,8 +1,9 @@
 {
-  "email": "viplove1@malinator.com",
-  "password": "viplove1@123",
+  "email": "viplove33@malinator.com",
+  "password": "viplove33@123",
   "pageUrl": "http://100.27.30.112/",
   "ticketTitle": "bug found",
   "ticketDescription": "bug us related to login funcionality",
-  "case": "fisrt case "
+  "case": "fisrt case ",
+  "invalidPassword":"InvalidPass"
 }
