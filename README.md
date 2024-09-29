@@ -42,6 +42,12 @@ Run Playwright Tests
 ## Use this command to run Playwright tests:
 
 npx playwright test
+npx playwright test --ui
+
+## Use this command to watch the reports:
+
+npx playwright show-report
+
 
 ## Required software
 - Node js -> v.14 or above
