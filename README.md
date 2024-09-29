@@ -51,9 +51,6 @@ npx playwright test --ui
 ## Alternatively, run tests for specific browsers like Chromium, Firefox, or Webkit:
 - npx playwright test --project=chromium
 
-## To run specific test files, use:
-- npx playwright test tests_expidite_assist/Test\ 1\ Register\ New\ User.spec.ts
-
 # Project Structure
 - tests_expidite_assist: This folder contains all the test cases for Expedite Assist.
      - Test 1 Register New User.spec.ts: Tests for new user registration.
